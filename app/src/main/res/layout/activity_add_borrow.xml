@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chọn sách:"
+        android:layout_marginBottom="4dp"/>
+    <Spinner
+        android:id="@+id/spinnerBooks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/edtBorrowerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Họ tên người mượn"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/edtBorrowerPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số điện thoại"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/edtBorrowDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ngày mượn (VD: 25/05/2026)"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/edtDueDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ngày dự kiến trả (VD: 05/06/2026)"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnSaveBorrow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lưu phiếu mượn"/>
+</LinearLayout>
